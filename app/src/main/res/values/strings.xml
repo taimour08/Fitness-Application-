@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Splash screen</string>
+
+    <string name="navigation_open">Open Navigation Drawer</string>
+    <string name="navigation_close">Close Navigation Drawer</string>
+    <string name="app_name1">ListDisplay</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

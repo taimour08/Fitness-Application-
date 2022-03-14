@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FullBody"
+    >
+
+
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/appbar"
+        />
+
+    <SearchView
+        android:id="@+id/searching"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Search Here"
+        android:background="@color/white"
+        android:iconifiedByDefault="false"
+        />
+    <ImageView
+        android:id="@+id/bodyimage"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dummy Header"
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dummy Description"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"
+        />
+
+
+
+    <ListView
+        android:id="@+id/listviewbody"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+</LinearLayout>

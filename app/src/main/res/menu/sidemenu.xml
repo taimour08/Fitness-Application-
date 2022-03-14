@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/TrainingPlans"
+            android:icon="@drawable/ic_alarm_clock"
+            android:title="Train Plans" />
+        <item
+            android:id="@+id/Discover"
+            android:icon="@drawable/ic_discover_explore"
+            android:title="Discover" />
+        <item
+            android:id="@+id/Report"
+            android:icon="@drawable/ic_stocks"
+            android:title="Report" />
+        <item
+            android:id="@+id/Reminder"
+            android:icon="@drawable/ic_alarm"
+            android:title="Reminder" />
+        <item
+            android:id="@+id/LanguageOptions"
+            android:icon="@drawable/ic_maintenance"
+            android:title="Language Options" />
+        <item
+            android:id="@+id/Settings"
+            android:icon="@drawable/ic_settings_gear"
+            android:title="Settings" />
+        <item
+            android:id="@+id/RestartProgress"
+            android:icon="@drawable/ic_forward_restore"
+            android:title="Restart Progress" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Authentication">
+
+            <menu>
+
+                <item
+                    android:id="@+id/Login"
+                    android:icon="@drawable/ic_baseline_login_24"
+                    android:title="Log In" />
+
+                <item
+                    android:id="@+id/Logout"
+                    android:icon="@drawable/ic_power_off_button"
+                    android:title="Log Out" />
+            </menu>
+
+        </item>
+    </group>
+</menu>
